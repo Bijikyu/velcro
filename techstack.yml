@@ -1,0 +1,581 @@
+repo_name: Bijikyu/velcro
+report_id: b21ffda2906edfb9e317f2d97f7f82ea
+repo_type: Public
+timestamp: '2023-12-02T21:34:11+00:00'
+requested_by: KonnorRogers
+provider: github
+branch: next
+detected_tools_count: 45
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source: Repo Metadata
+- name: Handlebars.js
+  description: Minimal Templating on Steroids
+  website_url: http://handlebarsjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1143/Handlebars.png
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-01-13 19:35:28.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2020-07-15 21:30:37.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source: ".github/workflows/node.js.yml"
+  last_updated_by: Christian Oliff
+  last_updated_on: 2022-08-26 13:46:35.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-01-13 19:35:28.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 12:22:18.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 15.0.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-01-13 19:35:28.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 22.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 12:22:18.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2020-07-15 21:30:37.000000000 Z
+- name: Ora
+  description: Agile task management and visual team collaboration, Ora is your team’s
+    command center with kanban, chat and timers!
+  website_url: https://ora.pm/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Project Management
+  image_url: https://img.stackshare.io/service/6925/preview.png
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2020-07-15 21:30:37.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: docs/assets/examples/include.html
+  last_updated_by: Cory LaViska
+  last_updated_on: 2020-10-16 12:57:02.000000000 Z
+- name: Prism
+  description: An extensible syntax highlighter, built with modern web standards
+  website_url: https://prismjs.com/
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 12:22:18.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: Vercel AI SDK
+  description: An interoperable, streaming-enabled, edge-ready software development
+    kit for AI apps
+  website_url: https://sdk.vercel.ai/docs
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/101756/default_4f2991cba3ec7fdd1cc87de69f4868157b0f2001.png
+  detection_source: vercel.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2020-07-15 21:30:37.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-01-13 19:35:28.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-01-13 19:35:28.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-01-13 20:43:55.000000000 Z
+- name: "@open-wc/testing"
+  description: Testing following open-wc recommendations
+  package_url: https://www.npmjs.com/@open-wc/testing
+  version: 3.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18264/default_e883f2ab27e3b57d1e2e1d1474b09e7351e11b54.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-02-28 17:30:05.000000000 Z
+- name: "@types/mocha"
+  description: TypeScript definitions for mocha
+  package_url: https://www.npmjs.com/@types/mocha
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-13 15:37:33.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.26
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-13 15:37:33.000000000 Z
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 5.48.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-13 15:37:33.000000000 Z
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 5.48.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-13 15:37:33.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.29.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 13:21:07.000000000 Z
+- name: change-case
+  description: Transform a string between `camelCase`
+  package_url: https://www.npmjs.com/change-case
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16612/default_9cd376f2200c8f6c32ebd690bb6c290852dee64d.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 12:22:18.000000000 Z
+- name: command-line-args
+  description: A mature
+  package_url: https://www.npmjs.com/command-line-args
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16723/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2022-11-07 17:06:34.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2020-07-15 21:30:37.000000000 Z
+- name: download
+  description: Download and extract files
+  package_url: https://www.npmjs.com/download
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16861/default_89212c2fcd02701c275bb6c77ae7dd538cd4b9f2.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 12:22:18.000000000 Z
+- name: eslint-plugin-chai-friendly
+  description: This plugin makes 'no-unused-expressions' rule friendly towards chai
+    expect statements
+  package_url: https://www.npmjs.com/eslint-plugin-chai-friendly
+  version: 0.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17721/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-02-05 15:49:10.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.27.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 13:21:07.000000000 Z
+- name: eslint-plugin-markdown
+  description: An ESLint plugin to lint JavaScript in Markdown code fences
+  package_url: https://www.npmjs.com/eslint-plugin-markdown
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16770/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 12:22:18.000000000 Z
+- name: front-matter
+  description: Extract YAML front matter from a string
+  package_url: https://www.npmjs.com/front-matter
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17272/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 12:22:18.000000000 Z
+- name: get-port
+  description: Get an available port
+  package_url: https://www.npmjs.com/get-port
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16732/default_ee69dab268e6a52104564fd4259549f5b48a25d4.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 13:21:07.000000000 Z
+- name: globby
+  description: User-friendly glob matching
+  package_url: https://www.npmjs.com/globby
+  version: 11.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-01-13 19:35:28.000000000 Z
+- name: lunr
+  description: Simple full-text search in your browser
+  package_url: https://www.npmjs.com/lunr
+  version: 2.3.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18488/default_0f684fdba52879fd48ceb8876e4283627899355a.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2021-09-07 15:52:58.000000000 Z
+- name: markdown-it-container
+  description: Plugin to create block-level custom containers for markdown-it markdown
+    parser
+  package_url: https://www.npmjs.com/markdown-it-container
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17038/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 12:22:18.000000000 Z
+- name: npm-check-updates
+  description: Find newer versions of dependencies than what your package.json or
+    bower.json allows
+  package_url: https://www.npmjs.com/npm-check-updates
+  version: 16.6.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16610/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-01-13 19:35:28.000000000 Z
+- name: pascal-case
+  description: Transform into a string of capitalized words without separators
+  package_url: https://www.npmjs.com/pascal-case
+  version: 3.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17994/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 12:22:18.000000000 Z
+- name: plop
+  description: Micro-generator framework that makes it easy for an entire team to
+    create files with a level of uniformity
+  package_url: https://www.npmjs.com/plop
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17943/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2022-07-14 13:11:16.000000000 Z
+- name: prismjs
+  description: Lightweight, robust, elegant syntax highlighting
+  package_url: https://www.npmjs.com/prismjs
+  version: 1.29.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-06-06 12:22:18.000000000 Z
+- name: source-map
+  description: Generates and consumes source maps
+  package_url: https://www.npmjs.com/source-map
+  version: 0.6.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16339/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2023-01-09 18:06:34.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 2.4.1
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: github.com/Bijikyu/velcro/blob/next/package-lock.json
+  detection_source: package.json
+  last_updated_by: Cory LaViska
+  last_updated_on: 2022-11-07 17:06:34.000000000 Z
